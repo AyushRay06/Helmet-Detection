@@ -1,0 +1,64 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log*
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment Files
+.env
+.env.*.local
+
+# Next.js
+.next/
+out/
+.cache/
+
+# Vercel Deployment
+.vercel/
+
+# Tailwind CSS
+.tailwind/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE Specific
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Build Artifacts
+dist/
+build/
+*.js.map
+*.css.map
+
+# Coverage Reports
+coverage/
+.nyc_output/
+
+# Temporary Files
+*.tmp
+*.temp
+*.bak
+*.orig
+
+# Docker
+docker-compose.override.yml
+*.dockerignore
+
+# Other
+*.local
+*.lock
+*.pyc
